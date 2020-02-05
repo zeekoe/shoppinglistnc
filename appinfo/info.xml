@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>shoppinglistnc</id>
+    <name>Shopping List NC</name>
+    <summary>Shopping list NC for android sync server</summary>
+    <description><![CDATA[Shopping list NC for android sync server]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="shoppinglistnc@ronaldteune.nl" >Ronald Teune</author>
+    <namespace>ShoppingListNC</namespace>
+    <category>organization</category>
+    <bugs>http://issueurl.nl/hi</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="17"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Shopping List NC</name>
+            <route>shoppinglistnc.page.index</route>
+        </navigation>
+    </navigations>
+</info>

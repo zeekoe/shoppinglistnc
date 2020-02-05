@@ -1,0 +1,15 @@
+{
+    "name": "Shopping List N C",
+    "description": "Shopping list NC for android sync server",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Ronald Teune"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
